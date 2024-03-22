@@ -684,7 +684,7 @@
             ],
             "expr": ""
           },
-          "expr": "ts{metadata={type='oee'},assetSubtreeIds=[{id=$machine}]}",
+          "expr": "ts{metadata={type='availability'},assetSubtreeIds=[{id=$machine}]}",
           "extractionPipelinesQuery": {
             "columns": [
               "name",
@@ -2039,6 +2039,6 @@
   "timezone": "browser",
   "title": "OEE Dashboard",
   "uid": "fdgbgcmbx77r4a",
-  "version": 48,
+  "version": 49,
   "weekStart": ""
 }
